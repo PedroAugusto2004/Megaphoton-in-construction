@@ -15,7 +15,7 @@ const Index = () => {
         <div className="text-center mb-16">
           <div className="mb-8 flex justify-center">
             <img 
-              src="/lovable-uploads/c9b00463-0d2b-4bf2-8f25-da5dfe292c51.png" 
+              src="/image/megaphoton.png" 
               alt="Megaphoton Logo" 
               className="h-24 w-auto"
             />
