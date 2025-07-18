@@ -21,7 +21,7 @@ const Index = () => {
             />
           </div>
           <h1 className="text-5xl md:text-6xl font-light mb-3 tracking-wide">
-            <span className="bg-gradient-to-r from-solar-orange to-solar-light bg-clip-text text-transparent">
+            <span className="text-solar-orange">
               Megaphoton
             </span>
           </h1>
@@ -75,7 +75,7 @@ const Index = () => {
         {/* Footer */}
         <div className="mt-12 text-center">
           <p className="text-muted-foreground text-xs">
-            © 2025 Megaphoton - Energia Solar
+            © 2025 Megaphoton - Energia inteligente
           </p>
           <p className="text-muted-foreground text-xs mt-2">
             Feito por{" "}
