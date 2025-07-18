@@ -15,9 +15,9 @@ const Index = () => {
         <div className="text-center mb-8 sm:mb-12 lg:mb-16">
           <div className="mb-6 sm:mb-8 flex justify-center">
             <img 
-              src="/image/megaphoton.png" 
+              src="/image/megaphoton logo.png" 
               alt="Megaphoton Logo" 
-              className="h-16 sm:h-20 md:h-24 w-auto"
+              className="h-24 sm:h-32 md:h-40 w-auto"
             />
           </div>
         </div>
