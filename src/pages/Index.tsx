@@ -75,7 +75,18 @@ const Index = () => {
         {/* Footer */}
         <div className="mt-12 text-center">
           <p className="text-muted-foreground text-xs">
-            © 2024 Megaphoton - Energia Solar
+            © 2025 Megaphoton - Energia Solar
+          </p>
+          <p className="text-muted-foreground text-xs mt-2">
+            Feito por{" "}
+            <a 
+              href="https://pedrodev.website/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-solar-orange hover:text-solar-light transition-colors"
+            >
+              Pedro Developments
+            </a>
           </p>
         </div>
       </div>
