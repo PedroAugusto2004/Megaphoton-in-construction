@@ -20,13 +20,13 @@ const Index = () => {
               className="h-24 w-auto"
             />
           </div>
-          <h1 className="text-5xl md:text-6xl font-bold mb-3">
+          <h1 className="text-5xl md:text-6xl font-light mb-3 tracking-wide">
             <span className="bg-gradient-to-r from-solar-orange to-solar-light bg-clip-text text-transparent">
               Megaphoton
             </span>
           </h1>
-          <p className="text-lg md:text-xl text-solar-green font-medium">
-            Energia Solar Sustentável
+          <p className="text-lg md:text-xl text-solar-green font-light">
+            Energia inteligente
           </p>
         </div>
 
