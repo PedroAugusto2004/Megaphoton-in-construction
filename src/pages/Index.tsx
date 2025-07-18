@@ -23,7 +23,7 @@ const Index = () => {
         </div>
 
         {/* Construction Notice */}
-        <div className="bg-card rounded-xl p-6 sm:p-10 md:p-16 lg:p-20 max-w-3xl mx-auto text-center border border-border/5 shadow-sm w-full">
+        <div className="max-w-3xl mx-auto text-center w-full">
           
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extralight mb-6 sm:mb-8 text-foreground tracking-wider">
             Em Construção
