@@ -20,14 +20,6 @@ const Index = () => {
               className="h-24 w-auto"
             />
           </div>
-          <h1 className="text-5xl md:text-6xl font-light mb-3 tracking-wide">
-            <span className="text-solar-orange">
-              Megaphoton
-            </span>
-          </h1>
-          <p className="text-lg md:text-xl text-solar-green font-light">
-            Energia inteligente
-          </p>
         </div>
 
         {/* Construction Notice */}
