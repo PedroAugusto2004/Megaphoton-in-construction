@@ -23,31 +23,21 @@ const Index = () => {
         </div>
 
         {/* Construction Notice */}
-        <div className="bg-card rounded-3xl p-12 md:p-16 max-w-2xl mx-auto text-center border border-border/10 shadow-lg">
-          <div className="flex justify-center mb-8">
-            <div className="relative p-4 bg-solar-orange/10 rounded-full">
-              <Wrench className="w-8 h-8 text-solar-orange" />
-              <div className="absolute -top-1 -right-1 w-4 h-4 bg-solar-orange rounded-full animate-pulse"></div>
-            </div>
-          </div>
+        <div className="bg-card rounded-xl p-16 md:p-20 max-w-3xl mx-auto text-center border border-border/5 shadow-sm">
           
-          <h2 className="text-4xl md:text-5xl font-light mb-6 text-foreground tracking-wide">
+          <h2 className="text-5xl md:text-6xl font-extralight mb-8 text-foreground tracking-wider">
             Em Construção
           </h2>
           
-          <p className="text-lg md:text-xl text-muted-foreground mb-12 leading-relaxed max-w-lg mx-auto">
+          <div className="w-16 h-0.5 bg-solar-orange mx-auto mb-8"></div>
+          
+          <p className="text-xl md:text-2xl text-muted-foreground mb-16 leading-relaxed font-light max-w-2xl mx-auto">
             Estamos desenvolvendo nossa nova plataforma.<br />
             Em breve, você encontrará aqui as melhores soluções em energia solar.
           </p>
 
-          <div className="space-y-6">
+          <div className="space-y-8">
             <ConstructionProgress />
-            
-            <div className="flex items-center justify-center gap-3 text-sm text-muted-foreground">
-              <div className="w-2 h-2 bg-solar-orange rounded-full animate-pulse"></div>
-              <span>Plataforma em desenvolvimento</span>
-              <div className="w-2 h-2 bg-solar-green rounded-full animate-pulse" style={{ animationDelay: '0.5s' }}></div>
-            </div>
           </div>
 
           {/* Contact Info */}
