@@ -23,21 +23,32 @@ const Index = () => {
         </div>
 
         {/* Construction Notice */}
-        <div className="bg-card rounded-2xl p-8 md:p-10 max-w-xl mx-auto text-center border border-border/20">
-          <div className="flex justify-center mb-6">
-            <Wrench className="w-12 h-12 text-solar-orange" />
+        <div className="bg-card rounded-3xl p-12 md:p-16 max-w-2xl mx-auto text-center border border-border/10 shadow-lg">
+          <div className="flex justify-center mb-8">
+            <div className="relative p-4 bg-solar-orange/10 rounded-full">
+              <Wrench className="w-8 h-8 text-solar-orange" />
+              <div className="absolute -top-1 -right-1 w-4 h-4 bg-solar-orange rounded-full animate-pulse"></div>
+            </div>
           </div>
           
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">
+          <h2 className="text-4xl md:text-5xl font-light mb-6 text-foreground tracking-wide">
             Em Construção
           </h2>
           
-          <p className="text-base md:text-lg text-muted-foreground mb-8 leading-relaxed">
-            Estamos desenvolvendo nossa nova plataforma. 
+          <p className="text-lg md:text-xl text-muted-foreground mb-12 leading-relaxed max-w-lg mx-auto">
+            Estamos desenvolvendo nossa nova plataforma.<br />
             Em breve, você encontrará aqui as melhores soluções em energia solar.
           </p>
 
-          <ConstructionProgress />
+          <div className="space-y-6">
+            <ConstructionProgress />
+            
+            <div className="flex items-center justify-center gap-3 text-sm text-muted-foreground">
+              <div className="w-2 h-2 bg-solar-orange rounded-full animate-pulse"></div>
+              <span>Plataforma em desenvolvimento</span>
+              <div className="w-2 h-2 bg-solar-green rounded-full animate-pulse" style={{ animationDelay: '0.5s' }}></div>
+            </div>
+          </div>
 
           {/* Contact Info */}
           <div className="mt-10 pt-6 border-t border-border/30">
