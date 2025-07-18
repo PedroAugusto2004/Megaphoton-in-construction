@@ -67,7 +67,7 @@ const Index = () => {
         {/* Footer */}
         <div className="mt-8 sm:mt-12 text-center px-4">
           <p className="text-muted-foreground text-xs">
-            © 2025 Megaphoton - Energia inteligente
+            © 2025 Megaphoton - Energia Inteligente
           </p>
           <p className="text-muted-foreground text-xs mt-2">
             Feito por{" "}
