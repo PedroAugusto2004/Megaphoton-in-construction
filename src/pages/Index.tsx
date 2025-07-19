@@ -61,7 +61,7 @@ const Index = () => {
                 (34) 99232-0853
               </a>
             </div>
-          </div>
+          </div> 
         </div>
 
         {/* Footer */}
