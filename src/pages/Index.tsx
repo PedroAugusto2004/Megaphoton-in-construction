@@ -1,6 +1,7 @@
 import { SolarIcon } from "@/components/SolarIcon";
 import { ConstructionProgress } from "@/components/ConstructionProgress";
 import { Wrench, Zap, Leaf, Mail, Phone } from "lucide-react";
+import { WhatsAppIcon } from "@/components/WhatsAppIcon";
 
 const Index = () => {
   return (
@@ -59,6 +60,15 @@ const Index = () => {
               >
                 <Phone className="w-3 h-3 sm:w-4 sm:h-4" />
                 (34) 99232-0853
+              </a>
+              <a 
+                href="https://wa.me/5534992320853?text=Olá,%20quero%20fazer%20um%20orçamento" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center sm:justify-start gap-2 text-green-500 hover:text-green-600 transition-colors text-xs sm:text-sm"
+              >
+                <WhatsAppIcon className="w-3 h-3 sm:w-4 sm:h-4" />
+                WhatsApp
               </a>
             </div>
           </div> 
