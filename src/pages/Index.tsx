@@ -43,31 +43,31 @@ const Index = () => {
 
           {/* Contact Info */}
           <div className="mt-8 sm:mt-10 pt-4 sm:pt-6 border-t border-border/30">
-            <p className="text-muted-foreground mb-3 sm:mb-4 text-xs sm:text-sm">
+            <p className="text-muted-foreground mb-4 sm:mb-5 text-xs sm:text-sm">
               Entre em contato conosco:
             </p>
-            <div className="flex flex-col sm:flex-row sm:justify-center sm:gap-6 space-y-2 sm:space-y-0">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 w-full max-w-xs sm:max-w-md mx-auto">
               <a 
                 href="mailto:megaphoton.ei@gmail.com" 
-                className="inline-flex items-center justify-center sm:justify-start gap-2 text-solar-orange hover:text-solar-light transition-colors text-xs sm:text-sm"
+                className="px-4 py-3 sm:py-2 rounded-md border border-solar-orange/30 bg-solar-orange/5 hover:bg-solar-orange/10 active:bg-solar-orange/20 inline-flex items-center justify-center gap-2 text-solar-orange transition-colors text-sm"
               >
-                <Mail className="w-3 h-3 sm:w-4 sm:h-4" />
-                megaphoton.ei@gmail.com
+                <Mail className="w-4 h-4" />
+                E-mail
               </a>
               <a 
                 href="tel:+5534992320853" 
-                className="inline-flex items-center justify-center sm:justify-start gap-2 text-solar-green hover:text-solar-green-light transition-colors text-xs sm:text-sm"
+                className="px-4 py-3 sm:py-2 rounded-md border border-solar-green/30 bg-solar-green/5 hover:bg-solar-green/10 active:bg-solar-green/20 inline-flex items-center justify-center gap-2 text-solar-green transition-colors text-sm"
               >
-                <Phone className="w-3 h-3 sm:w-4 sm:h-4" />
-                (34) 99232-0853
+                <Phone className="w-4 h-4" />
+                Telefone
               </a>
               <a 
                 href="https://wa.me/5534992320853?text=Olá,%20quero%20fazer%20um%20orçamento" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center sm:justify-start gap-2 text-green-500 hover:text-green-600 transition-colors text-xs sm:text-sm"
+                className="px-4 py-3 sm:py-2 rounded-md border border-green-500/30 bg-green-500/5 hover:bg-green-500/10 active:bg-green-500/20 inline-flex items-center justify-center gap-2 text-green-500 transition-colors text-sm"
               >
-                <WhatsAppIcon className="w-3 h-3 sm:w-4 sm:h-4" />
+                <WhatsAppIcon className="w-4 h-4" />
                 WhatsApp
               </a>
             </div>
